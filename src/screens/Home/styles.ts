@@ -18,10 +18,10 @@ export const styles = StyleSheet.create({
     },
 
     buttonText:{
-      // padding: 30,
-      position: 'absolute',
-      left: '40%',
-      top: '25%',
+      padding: 30,
+      // position: 'absolute',
+      // left: '40%',
+      // top: '25%',
       color: "#C4C4CC",
       fontSize: 20
       
