@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.willians9620.dueLaser"
+      "package": "com.willians9620.dueLaserWhite"
     },
     "web": {
       "favicon": "./assets/favicon.png"

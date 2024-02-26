@@ -32,21 +32,21 @@ export function Home(){
 
       <View style={styles.buttonContainer}>
         <TouchableOpacity onPress={() => handleClick(upClickCount, upSetCount)}>
-          <Icon.ArrowCircleUp style={styles.buttonIcon} size={150}/>
+          <Icon.CaretUp style={styles.buttonIcon} size={150}/>
         </TouchableOpacity>
         <Text style={styles.buttonText}>{upClickCount} Cliques</Text>
       </View>
 
       <View style={styles.buttonContainer}>
         <TouchableOpacity onPress={() => handleClick(homeClickCount, homeSetCount)}>
-          <Icon.House style={styles.buttonIcon} size={150} />
+          <Icon.HouseSimple style={styles.buttonIcon} size={150} />
         </TouchableOpacity>
         <Text style={styles.buttonText}>{homeClickCount} Cliques</Text>
       </View>
 
       <View style={styles.buttonContainer}>
         <TouchableOpacity onPress={() => handleClick(downClickCount, downSetCount)}>
-          <Icon.ArrowCircleDown style={styles.buttonIcon} size={150}/>
+          <Icon.CaretDown style={styles.buttonIcon} size={150}/>
         </TouchableOpacity>
         <Text style={styles.buttonText}>{downClickCount} Cliques</Text>
       </View>

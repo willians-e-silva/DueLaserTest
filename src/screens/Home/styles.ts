@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: "#171719",
+      backgroundColor: "#ffffff",
     },
 
     buttonContainer:{
@@ -22,13 +22,15 @@ export const styles = StyleSheet.create({
       // position: 'absolute',
       // left: '40%',
       // top: '25%',
-      color: "#C4C4CC",
+      color: "#2a57bf",
       fontSize: 20
       
     },
 
     buttonIcon:{
       height: "100%",
-      color: "#C4C4CC"
+      color: "#2a57bf",
+      backgroundColor: '#f0f0f0',
+      borderRadius: 20
     }
   });
